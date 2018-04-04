@@ -1,10 +1,8 @@
-ttt_board = ["",""," "," ","X"," "," "," ",""]
-
-def position_taken?(board, index)
+def position_taken?(board, position)
    
-   if (board[index] ==  " " || board[index] == "" || board[index] == nil)
-     taken = false
+   if (board[position] ==  " " || board[position] == "" || board[position] == nil)
+     board[position] = false
    else
-     taken = true
+     board[position] = true
    end
    
