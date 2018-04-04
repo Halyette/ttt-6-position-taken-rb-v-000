@@ -6,3 +6,5 @@ def position_taken?(board, position)
      board[position] = true
    end
    
+end
+   
